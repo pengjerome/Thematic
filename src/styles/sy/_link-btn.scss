@@ -1,0 +1,15 @@
+.link-btn {
+  border: none;
+  background-color: $white;
+  color: $link-color;
+  cursor: pointer;
+  &:hover {
+    color: $gray-900;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.active {
+    color: $gray-900;
+  }
+}

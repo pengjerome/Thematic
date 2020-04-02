@@ -1,0 +1,99 @@
+@mixin circle {
+  border-radius: 50%;
+}
+
+@mixin vertical-rl {
+  writing-mode: vertical-rl;
+  letter-spacing: $vertical-letter-spacing;
+}
+
+.animate-start {
+  animation-play-state: running !important;
+}
+
+.animate-pause {
+  animation-play-state: paused !important;
+}
+
+.outline-0 {
+  outline: none !important;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.opacity {
+  opacity: 0 !important;
+}
+
+.object-cover {
+  object-fit: cover !important;
+}
+
+.hover-shadow:hover {
+  box-shadow: $box-shadow !important;
+}
+
+.border-crude {
+  border-width: 2px !important;
+}
+
+@each $key, $val in $grid-breakpoints {
+  // font size
+  @each $size-name, $font-size in $font-sizes {
+    .fs-#{$size-name} {
+      font-size: #{$font-size} !important;
+    }
+    @media (min-width: $val) {
+      .fs-#{$key}-#{$size-name} {
+        font-size: #{$font-size} !important;
+      }
+    }
+  }
+
+  // toggle border
+  $directions: "top", "right", "bottom", "left";
+  @each $direction in $directions {
+    @media (min-width: $val) {
+      .border-#{$key}-0 {
+        border: none !important;
+      }
+      .border-#{$direction}-#{$key}-0 {
+        border-#{$direction}: none !important;
+      }
+      .border-#{$key}-#{$direction} {
+        border-#{$direction}: 1px solid !important;
+      }
+    }
+  }
+
+  @each $name, $color in $text-grays {
+    .text-#{$name} {
+      color: #{$color} !important;
+    }
+    @media (min-width: $val) {
+      .text-#{key}-$name {
+        color: #{$color} !important;
+      }
+    }
+  }
+
+  // vertical
+  .vertical-rl {
+    writing-mode: vertical-rl;
+    letter-spacing: $vertical-letter-spacing;
+  }
+  @media (min-width: $val) {
+    .vertical-#{$key}-rl {
+      writing-mode: vertical-rl;
+      letter-spacing: $vertical-letter-spacing;
+    }
+  }
+}
+
+@each $name, $color in $theme-colors {
+  .border-#{$name} {
+    border-color: $color;
+  }
+}

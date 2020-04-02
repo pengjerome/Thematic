@@ -1,0 +1,451 @@
+.nav-link {
+  position: relative;
+  .pj_mainbarcart-num {
+    position: absolute;
+    top: -1px;
+    left: 19px;
+    float: right;
+    background-color: $mainlight;
+    // border: 2px solid orange;
+    padding: 1px 6px;
+    border-radius: 50%;
+    text-align: center;
+    // font-style: italic;
+    color: #fff;
+    font-size: 12px;
+
+    // background-color: orange;
+  }
+}
+.pj_button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 28px;
+  border: 0px solid $mainlight;
+  border-radius: 5px;
+  background: $mainlight;
+  background: -webkit-gradient(linear, left top, left bottom, from($mainlight));
+  background: -moz-linear-gradient ($mainlight);
+  background: linear-gradient ($mainlight);
+
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button:hover,
+.pj_button:focus {
+  border: 0px solid #f17d3a;
+  background: #f17d3a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f17d3a));
+  background: -moz-linear-gradient(#f17d3a);
+  background: linear-gradient(#f17d3a);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button:active {
+  background: #f17d3a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f17d3a),
+    to(#f17d3a)
+  );
+  background: -moz-linear-gradient(#f17d3a, #f17d3a);
+  background: linear-gradient(#f17d3a, #f17d3a);
+}
+
+.pj_button1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 5px;
+  border: 0px solid #f17d3a;
+  border-radius: 55px;
+  background: #f17d3a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f17d3a),
+    to(#f17d3a)
+  );
+  background: -moz-linear-gradient(#f17d3a);
+  background: linear-gradient(#f17d3a);
+  // text-shadow: #6f320f 2px 0px 1px;
+  // font: normal normal bold 12px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button1:hover,
+.pj_button1:focus {
+  border: 0px solid #de641d;
+  background: #ff9c2e;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff9c2e),
+    to(#d6601c)
+  );
+  background: -moz-linear-gradient(#ff9c2e, #d6601c);
+  background: linear-gradient(#ff9c2e, #d6601c);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button1:active {
+  background: #f17d3a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f17d3a),
+    to(#f17d3a)
+  );
+  background: -moz-linear-gradient(#f17d3a, #f17d3a);
+  background: linear-gradient(#f17d3a, #f17d3a);
+}
+
+.pj_button-rad {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 20px;
+  border: 0px solid #cc3b31;
+  border-radius: 5px;
+  background: #ff604f;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff604f),
+    to(#cc3b31)
+  );
+  background: -moz-linear-gradient(#cc3b31);
+  background: linear-gradient(#cc3b31);
+  // text-shadow: #80251f 1px 0px 1px;
+  // font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-rad:hover,
+.pj_button-rad:focus {
+  border: 0px solid #ff4a3d;
+  background: #ff735f;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff735f),
+    to(#f5473b)
+  );
+  background: -moz-linear-gradient(#ff735f, #f5473b);
+  background: linear-gradient(#ff735f, #f5473b);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-rad:active {
+  background: #cc3b31;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#cc3b31),
+    to(#cc3b31)
+  );
+  background: -moz-linear-gradient(#cc3b31, #cc3b31);
+  background: linear-gradient(#cc3b31, #cc3b31);
+}
+
+.pj_button-green {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 20px;
+  border: 0px solid #3db447;
+  border-radius: 5px;
+  background: #34a33d;
+  background: -webkit-gradient();
+  background: -moz-linear-gradient(#34a33d);
+  background: linear-gradient(#34a33d);
+  // text-shadow: #16541a 1px 0px 1px;
+  // font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-green:hover,
+.pj_button-green:focus {
+  border: 0px solid #34a33d;
+  background: #34a33d;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#15b822),
+    to(#29a132)
+  );
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-green:active {
+  background: #22862a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#22862a),
+    to(#22862a)
+  );
+  background: -moz-linear-gradient(#22862a, #22862a);
+  background: linear-gradient(#22862a, #22862a);
+}
+.pj_button-purple {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 35px;
+  border: 0px solid #c074df;
+  border-radius: 5px;
+  background: rgb(192, 127, 218);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    // from(#c074df),
+      // to(#c074df)
+  );
+  background: -moz-linear-gradient(rgb(192, 127, 218));
+  background: linear-gradient(rgb(192, 127, 218));
+  // text-shadow: #431654 1px 0px 1px;
+  // font: normal normal bold 7px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-purple:hover,
+.pj_button-purple:focus {
+  border: 0px solid #da7eff;
+  background: #da7eff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    // from(#9731c0),
+      // to(#9731c0)
+  );
+  background: -moz-linear-gradient(#da7eff);
+  background: linear-gradient(#da7eff);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-purple:active {
+  background: #da7eff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#da7eff),
+    to(#da7eff)
+  );
+  background: -moz-linear-gradient(#da7eff);
+  background: linear-gradient(#da7eff);
+}
+.pj_button-blue {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 35px;
+  border: 0px solid #59a8fc;
+  border-radius: 5px;
+  background: #59a8fc;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(0a68cc),
+    to(#59a8fc)
+  );
+  background: -moz-linear-gradient(#59a8fc);
+  background: linear-gradient(#59a8fc);
+  // text-shadow: #074180 1px 0px 1px;
+  // font: normal normal bold 7px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-blue:hover,
+.pj_button-blue:focus {
+  border: 0px solid #59a8fc;
+  background: #71b6ff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#71b6ff),
+    to(#71b6ff)
+  );
+  background: -moz-linear-gradient(#71b6ff);
+  background: linear-gradient(#71b6ff);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-blue:active {
+  background: #71b6ff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#71b6ff),
+    to(#71b6ff)
+  );
+  background: -moz-linear-gradient(#71b6ff);
+  background: linear-gradient(#71b6ff);
+}
+.pj_button-yellow {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 35px;
+  border: 0px solid #dac80a;
+  border-radius: 5px;
+  background: #dac80a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#dac80a),
+    to(#dac80a)
+  );
+  background: -moz-linear-gradient(#dac80a);
+  background: linear-gradient(#dac80a);
+  // text-shadow: #806600 1px 0px 1px;
+  // font: normal normal bold 7px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-yellow:hover,
+.pj_button-yellow:focus {
+  border: 0px solid #ffcc00;
+  background: #ffff00;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#888806),
+    to(#888806)
+  );
+  background: -moz-linear-gradient(#888806);
+  background: linear-gradient(#888806);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-yellow:active {
+  background: #888806;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#888806),
+    to(#888806)
+  );
+  background: -moz-linear-gradient(#888806);
+  background: linear-gradient(#888806);
+}
+
+.pj_button-orange {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 40px;
+  border: 0px solid #ff9800;
+  border-radius: 5px;
+  background: #ff9800;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff9800),
+    to(#ff9800)
+  );
+  background: -moz-linear-gradient(#ff9800);
+  background: linear-gradient(#ff9800);
+  font: normal normal bold 19px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-orange:hover,
+.pj_button-orange:focus {
+  border: 0px solid #fa7500;
+  background: #fa7500;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fa7500),
+    to(#fa7500)
+  );
+  background: -moz-linear-gradient(#fa7500);
+  background: linear-gradient(#fa7500);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button-orange:active {
+  background: #fa7500;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fa7500),
+    to(#fa7500)
+  );
+  background: -moz-linear-gradient(#fa7500);
+  background: linear-gradient(#fa7500);
+}
+
+.pj_input-color {
+  background-color: $mainlight;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 180, 81);
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+
+.pj_button2 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  // padding: 10px 28px;
+  border: 0px solid $mainlight;
+  border-radius: 5px;
+  border: 2px solid $mainlight;
+  background: -webkit-gradient(linear, left top, left bottom, from($mainlight));
+  background: -moz-linear-gradient ($mainlight);
+  background: linear-gradient ($mainlight);
+  background-color: #fff;
+  font: normal normal bold 20px arial;
+  color: $mainlight;
+  text-decoration: none;
+}
+.pj_button2:hover,
+.pj_button2:focus {
+  border: 0px solid #f17d3a;
+  background: #f17d3a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f17d3a));
+  background: -moz-linear-gradient(#f17d3a);
+  background: linear-gradient(#f17d3a);
+  color: #ffffff;
+  text-decoration: none;
+}
+.pj_button2:active {
+  background: #f17d3a;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f17d3a),
+    to(#f17d3a)
+  );
+  background: -moz-linear-gradient(#f17d3a, #f17d3a);
+  background: linear-gradient(#f17d3a, #f17d3a);
+}
